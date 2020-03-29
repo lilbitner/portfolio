@@ -1,3 +1,7 @@
+
+
+
+
 .App {
   text-align: center;
 }
@@ -7,6 +11,24 @@
   pointer-events: none;
 }
 
+li {
+  list-style-type: none;
+}
+
+.nav-components {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #d77fa1;
+  font-family: 'Bellota', cursive;
+  
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +57,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.side-nav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color:  #e6b2c6; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }

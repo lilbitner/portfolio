@@ -1,0 +1,23 @@
+.aboutCard {
+    border: solid;
+    border-width: 2vw;
+    border-color: whitesmoke;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.aboutCard:hover {
+    box-shadow: 0px 4px 8px 16px rgba(0,0,0,0.3);
+}
+
+#LillyImage {
+    width: 20%;
+    height: 100%;
+}
