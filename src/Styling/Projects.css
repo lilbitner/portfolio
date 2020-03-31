@@ -1,4 +1,4 @@
-.aboutCard {
+.projectsCard {
     border: solid;
     border-width: 2vw;
     border-color: whitesmoke;
@@ -12,15 +12,10 @@
     justify-content: space-evenly;
     background-color: whitesmoke;
     opacity: .7;
-    margin-bottom: 11rem;
+    font-size: 10px;
     
 }
 
-.aboutCard:hover {
+.projectsCard:hover {
     box-shadow: 0px 4px 8px 16px rgba(0,0,0,0.3);
-}
-
-#LillyImage {
-    width: 20%;
-    height: 100%;
 }
