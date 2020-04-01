@@ -1,0 +1,13 @@
+.linkButtons {
+    border:solid;
+    height: 1rem;
+    width: 20%;
+    background-image: url(https://www.sharethis.com/wp-content/uploads/2017/05/LinkedIn.png);
+}
+
+.Nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
