@@ -7,12 +7,11 @@
     margin-right: 10%;
     text-align: left;
     display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     background-color: whitesmoke;
     opacity: .7;
-    margin-bottom: 11rem;
+    margin-bottom: 6rem;
     
 }
 
@@ -23,4 +22,33 @@
 #LillyImage {
     width: 20%;
     height: 100%;
+    margin-left: 20%;
+}
+
+#list {
+    list-style: circle;
+}
+
+.timeline {
+    border: solid;
+    border-width: 2vw;
+    border-color: whitesmoke;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+  
+    background-color: whitesmoke;
+    opacity: .7;
+    margin-bottom: 6rem;
+}
+
+.timelineTitles {
+    font-weight: 800;
+    font-size: large;
+}
+
+.yaleDescription {
+    text-align: left;
+    /* margin-left: 25%; */
 }
