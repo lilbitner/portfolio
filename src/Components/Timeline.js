@@ -1,26 +1,9 @@
 import React from 'react'
-import '../Styling/About.css'
-import Lilly from '../Images/Lillian.jpeg'
 
-export default class About extends React.Component{
+export default class Timeline extends React.Component {
     render(){
         return(
-            <>
-            {/* <h1>Lillian Elizabeth Bitner</h1> */}
-                <div className='aboutCard'> 
-                    <div className='containerAbout'> 
-                        <h1>About Lillian</h1>
-                        <ul className='aboutList'>
-                            <li id='list'>Colorado Native</li>
-                            <li id='list'>Passion for healthcare, nutrition, fitness, and the environment</li>
-                            <li id='list'>16-year competitive soccer player</li>
-                            <li id='list'>Sunshine enthusiast</li>
-                            <li id='list'>Obsessive Hall n'Oats Fan</li>
-                        </ul>
-                    </div>
-                    <img id='LillyImage' src={Lilly} alt="Lilly" /> 
-                </div>
-                {/* <div className='timeline'>
+            <div className='timeline'>
                     <h1>Timeline</h1>
                     <h3 className='timelineTitles'> 2017 Graduated Yale University with a B.S in Molecular Biology - New Haven, CT</h3>
                         <ul className="yaleDescription"> 
@@ -43,8 +26,7 @@ export default class About extends React.Component{
                             <li id='list'>My world brightened up with the exciting, creative opprotunites in tech</li>
                             <li id='list'>Also made fostered quality friendships</li>
                         </ul>
-                </div>  */}
-            </>
+                </div> 
         )
     }
 }
