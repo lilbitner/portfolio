@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Route, Switch} from 'react-router-dom'
 import Main from './Components/Main'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 class App extends React.Component {
